@@ -1,18 +1,66 @@
 {
-  "name": "@utilcode/simple-template-advanced",
+  "name": "@supernpm2024/quis-ab-laboriosam-veniam",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "CLI arguments micro parser",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "lint-staged": {
+    "src/*.{ts,tsx}": [
+      "tslint --fix",
+      "git add",
+      "jest --bail --findRelatedTests"
+    ]
   },
-  "author": "",
+  "keywords": [
+    "argv",
+    "getopt",
+    "parser",
+    "minimist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "ellentea",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "engines": {
+    "node": ">=6.16.0"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.12",
+    "husky": "1.3.1",
+    "jest": "23.6.0",
+    "lint-staged": "8.1.0",
+    "prettier": "1.15.3",
+    "ts-jest": "23.10.5",
+    "tslint": "5.12.1",
+    "tslint-config-prettier": "1.17.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.2.2"
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "@supernpm2024/cupiditate-sed-aliquam-quae": "^1.0.0",
+    "@supernpm2024/dignissimos-accusamus-libero-cumque": "^1.0.0",
+    "@supernpm2024/dolor-distinctio-nisi-cupiditate": "^1.0.0",
+    "@supernpm2024/labore-repudiandae-dolorem-in": "^1.0.0",
+    "@supernpm2024/laboriosam-ipsam-assumenda-maiores": "^1.0.0",
+    "@supernpm2024/legendary-broccoli": "^1.0.0",
+    "@supernpm2024/modi-consequuntur-mollitia-nesciunt": "^1.0.0",
+    "@supernpm2024/modi-quod-recusandae-placeat": "^1.0.0",
+    "@supernpm2024/officia-eum-pariatur-temporibus": "^1.0.0",
+    "@supernpm2024/praesentium-ipsa-odio-ullam": "^1.0.0",
+    "@supernpm2024/similique-occaecati-laborum-saepe": "^1.0.0",
+    "@supernpm2024/sunt-blanditiis-totam-eos": "^1.0.0",
+    "@supernpm2024/tenetur-tempore-ex-illo": "^1.0.0",
+    "@supernpm2024/unde-delectus-corporis-commodi": "^1.0.0",
+    "@supernpm2024/voluptatem-eius-officia-voluptatem": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supernpm2024/quis-ab-laboriosam-veniam.git"
+  },
+  "homepage": "https://github.com/supernpm2024/quis-ab-laboriosam-veniam/#readme",
+  "bugs": {
+    "url": "https://github.com/supernpm2024/quis-ab-laboriosam-veniam/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
